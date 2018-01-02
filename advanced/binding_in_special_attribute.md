@@ -21,7 +21,7 @@ Assume that you want to show a "Delete" button only to a user who has administra
 <checkbox label="Is Admin" checked="@bind(vm.currentUser.admin)"/>
 ```
 -   Line 2: It is a wrong usage; the delete button will never be created.
--   Line 4: The button's creation is determined when a user visits the page and won't appear unless the user becomes a administrator andivsits the page again.
+-   Line 4: The button's creation is determined when a user visits the page and won't appear unless the user becomes an administrator and vsits the page again.
 -   Line 6,7: It is what we recommend for most cases. You can bind on `visible`, and it brings you almost the same effect as `if`. The `disabled` also has similar effect.
 
 The "forEach" Versus Children Binding
